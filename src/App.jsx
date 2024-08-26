@@ -4,7 +4,7 @@ import './index.css'
 
 function App() {
   return (
-    <main className="flex flex-col justify-center gap-4 h-[100vh] w-[100vw] bg-neutral-cream">
+    <main className="flex flex-col justify-center items-center gap-4 h-[100vh] w-[100vw] p-4 bg-neutral-cream">
       <Balance />
       <Spending />
     </main>
